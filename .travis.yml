@@ -1,0 +1,8 @@
+language: perl
+
+#uses 5.14 otherwise
+perl: 
+  - "5.22"
+
+# Commenting out this will cause Travis to run what it thinks is the default test
+script: echo "Hello there"
