@@ -7,4 +7,4 @@ perl:
 install:
   - cpanm -n Devel::Cover::Report::Coveralls
 
-script: "./travisci/harness.sh"
+script: "./travisci/test.sh"
