@@ -1,11 +1,14 @@
 package Test;
 
 sub func {
-  return "Hello sir!";
+  if($_[0] eq 'm') {
+    return "Hello sir!";
+  }
+  return "Good day m'lady!";
 }
 
 sub other {
-  return "There there sir";
+  return "There there";
 }
 
 1;
