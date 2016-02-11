@@ -1,7 +1,7 @@
 package Test;
 
 sub func {
-  if($_[0] eq 'm') {
+  if(defined $_[0] && $_[0] eq 'm') {
     return "Hello sir!";
   }
   return "Good day m'lady!";
